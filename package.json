@@ -1,0 +1,20 @@
+{
+  "name": "@cmstead/md-to-index",
+  "version": "1.0.0",
+  "description": "Reads in a bunch of markdown files and generates a json index file",
+  "main": "index.js",
+  "type": "module",
+  "scope": "cmstead",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js"
+  },
+  "author": "Chris Stead",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "dependencies": {
+    "front-matter-markdown": "^0.4.5"
+  }
+}
